@@ -148,9 +148,9 @@ def main(_argv):
     
     #initialize line parameters
     line1 = [(50, 50),(50, 50)]#IN
-    line2 = [(50, 50),(50, 50)]#OUT
+    line2 = [(0, 400),(300, 300)]#OUT
     line3 = [(50, 50),(50, 50)]#Jawaz
-    line4 = [(250, 400),(400,350)]#Manual
+    line4 = [(250, 400),(250,250)]#Manual
 
     #initialize counters
     counter_IN = 0
