@@ -147,10 +147,10 @@ def main(_argv):
     #line4 = [(610, 500),(915,500)]#Manual
     
     #initialize line parameters
-    line1 = [(0, 50),(200, 150)]#IN
-    line2 = [(0, 450),(400,300)]#OUT
-    line3 = [(0, 200),(350,250)]#Jawaz
-    line4 = [(200, 400),(300,100)]#Manual
+    line1 = [(50, 50),(50, 50)]#IN
+    line2 = [(50, 50),(50, 50)]#OUT
+    line3 = [(50, 50),(50, 50)]#Jawaz
+    line4 = [(250, 400),(400,350)]#Manual
 
     #initialize counters
     counter_IN = 0
