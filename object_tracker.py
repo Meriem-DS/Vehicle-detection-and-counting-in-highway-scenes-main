@@ -124,33 +124,34 @@ def main(_argv):
     memory = {}
 
    
-    
    
+    #initialize line parameters : ZOOM
+    #line1 = [(25, 190),(150,190)]#IN
+    #line2 = [(0, 240),(500,240)]#OUT
+    #line3 = [(120, 200),(340,200)]#Jawaz
+    #line4 = [(300, 230), (550, 230)]#Manual
+    
+    ##Pas de Zoom
     '''
     # video après midi
-    line1 = [(25, 190),(150,190)]#IN
-    line2 = [(0, 240),(500,240)]#OUT
-    line3 = [(120, 200),(340,200)]#Jawaz
-    line4 = [(300, 230), (550, 230)]#Manual  
+    line1 = [(20, 210),(200,210)]#IN
+    line2 = [(100, 300),(600,300)]#OUT
+    line3 = [(250, 240),(400,240)]#Jawaz
+    line4 = [(400, 260), (610, 260)]#Manual   
     '''
     '''
     # video nuit
-    line1 = [(25, 190),(150,190)]#IN
-    line2 = [(0, 240),(500,240)]#OUT
-    line3 = [(120, 200),(340,200)]#Jawaz
-    line4 = [(300, 230), (550, 230)]#Manual 
+    line1 = [(20, 210),(200,210)]#IN
+    line2 = [(100, 300),(600,300)]#OUT
+    line3 = [(250, 240),(400,240)]#Jawaz
+    line4 = [(400, 260), (610, 260)]#Manual  
     '''
     #initialize line parameters
-   # line1 = [(190, 370),(460,370)]#IN
-   # line2 = [(155, 575),(890,575)]#OUT
-    #line3 = [(360, 450),(670,450)]#Jawaz
-    #line4 = [(610, 500),(915,500)]#Manual
     
-    #initialize line parameters
-    line1 = [(25, 190),(150,190)]#IN
-    line2 = [(0, 240),(500,240)]#OUT
-    line3 = [(120, 200),(340,200)]#Jawaz
-    line4 = [(300, 230), (550, 230)]#Manual
+    line1 = [(20, 210),(200,210)]#IN
+    line2 = [(100, 300),(600,300)]#OUT
+    line3 = [(250, 240),(400,240)]#Jawaz
+    line4 = [(400, 260), (610, 260)]#Manual
 
     #initialize counters
     counter_IN = 0
